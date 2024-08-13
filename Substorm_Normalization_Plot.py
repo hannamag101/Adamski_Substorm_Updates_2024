@@ -8,7 +8,7 @@ from datetime import datetime
 
 def substorm_norm_visual():
     # Mean sunspot count from 1749 to 2022
-    url_monthly_sunspot = "https://raw.githubusercontent.com/hannamag101/Adamski_Substorm_Updates_2024/main/Sunspot_Data/Sophie_Substorm_Lists/SN_13monthsmoothed_1749_now.txt"
+    url_monthly_sunspot = "https://raw.githubusercontent.com/hannamag101/Adamski_Substorm_Updates_2024/main/Sunspot_Data/SN_13monthsmoothed_1749_now.txt"
     sunspot_df = pd.DataFrame(np.loadtxt(url_monthly_sunspot), columns = ["Year", "Month", "Fraction Date", "Smoothed Sunspot Number", "Monthly Mean STD of input sunspot numbers", "Total observations"])
 
     # Smoothed Sunspot Number >= 0 
