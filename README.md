@@ -28,3 +28,5 @@ Forsyth, C., I. J. Rae, J. C. Coxon, M. P. Freeman, C. M. Jackman, J. Gjerloev, 
 For a more thorough description and analysis of progress make during project, as well as more figures, visit Earth_Substorm_Updates_Final.pdf file. Below is an example plot, Figure 7, from the final project report. 
 
 ![Image](/Sample_Visualizations/Optimal_Venns.jpeg)
+
+**Figure 7:** Venn diagram representing the subdivision of simultaneous substorm onsets across the Forsyth, Newell, and Ohtani datasets using a 10 minute, 1 hour, 2 hour, and 24 hour increment. Based on Fogg et al. (2022), the median duration of a substorm event is estimated to be 60 minutes. This assumption lays the foundation for the choice of our optimal bin - 1 hour - whose data overlap is visualized in 7b.
