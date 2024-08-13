@@ -25,7 +25,7 @@ Forsyth, C., I. J. Rae, J. C. Coxon, M. P. Freeman, C. M. Jackman, J. Gjerloev, 
 
 ### Sample Visualization:
 ----
-For a more thorough description and analysis of progress made during project, as well as more figures, visit [a relative link](/Earth_Substorm_Updates_Final.pdf) file. Below is an example plot, Figure 7, from the final project report. 
+For a more thorough description and analysis of progress made during project, as well as more figures, visit [final updates](/Earth_Substorm_Updates_Final.pdf) file. Below is an example plot, Figure 7, from the final project report. 
 
 ![Image](/Sample_Visualizations/Optimal_Venns.jpeg)
 
