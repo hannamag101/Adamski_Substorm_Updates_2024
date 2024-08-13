@@ -17,8 +17,8 @@ Forsyth, C., I. J. Rae, J. C. Coxon, M. P. Freeman, C. M. Jackman, J. Gjerloev, 
  
 ### Packages: 
 ---
-$\bullet$ Numpy
-$\bullet$ matplotlib, matplotlib_venn, matplotlib.colors, matplotlib.transforms
-$\bullet$ pandas
-$\bullet$ datetime
-$\bullet$ os
+* Numpy
+* matplotlib, matplotlib_venn, matplotlib.colors, matplotlib.transforms
+* pandas
+* datetime
+* os
