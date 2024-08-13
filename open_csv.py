@@ -45,6 +45,26 @@ def open_csv(key):
         #data['Minute'] = [data["Date-UTC"].iloc[i].minute for i in range(np.shape(data)[0])]
         #data['Second'] = [data["Date-UTC"].iloc[i].second for i in range(np.shape(data)[0])]
     
+    elif (key == "NG"):
+        # Read in '.csv' file using key-value relationship established in dictionary
+        file = file_dict[key]
+        print('File you are accessing is: ', file)
+
+        url= f"https://raw.githubusercontent.com/hannamag101/Adamski_Substorm_Updates_2024/main/Substorm_Data/{file}"
+        data = pd.read_csv(url)
+
+        # Convert to proper datetime format
+        data['Date_UTC'] = pd.to_datetime(data['Date_UTC'])
+
+        # Rule out false detections - only want where 18 <= MLT <= 06
+        before_midnight = np.where((data['MLT']>=18) & (data['MLT'] <=24))
+        after_midnight = np.where((data['MLT']>=0) & (data['MLT'] <=6))
+
+        length_b4 = np.shape(before_midnight)[1]
+        length_after = np.shape(after_midnight)[1]
+        positive_detections = np.sort(np.concatenate([before_midnight, after_midnight], axis = 1)[0])
+        data = data.iloc[positive_detections].reset_index()
+
     else:
 
         file = file_dict[key]
