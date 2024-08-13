@@ -22,3 +22,9 @@ Forsyth, C., I. J. Rae, J. C. Coxon, M. P. Freeman, C. M. Jackman, J. Gjerloev, 
 * pandas
 * datetime
 * os
+
+### Sample Visualization:
+----
+For a more thorough description and analysis of progress make during project, as well as more figures, visit Earth_Substorm_Updates_Final.pdf file. Below is an example plot, Figure 7, from the final project report. 
+
+![Image](Adamski_Substorm_Updates_2024/main/Sample_Visualizations/Optimal_Venns.jpeg)
