@@ -55,7 +55,7 @@ def open_csv(key):
 
         # Convert to proper datetime format
         data['Date_UTC'] = pd.to_datetime(data['Date_UTC'])
-
+        '''
         # Rule out false detections - only want where 18 <= MLT <= 06
         before_midnight = np.where((data['MLT']>=18) & (data['MLT'] <=24))
         after_midnight = np.where((data['MLT']>=0) & (data['MLT'] <=6))
@@ -64,6 +64,7 @@ def open_csv(key):
         length_after = np.shape(after_midnight)[1]
         positive_detections = np.sort(np.concatenate([before_midnight, after_midnight], axis = 1)[0])
         data = data.iloc[positive_detections].reset_index()
+        '''
 
     else:
 
