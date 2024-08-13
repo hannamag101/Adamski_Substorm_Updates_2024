@@ -22,7 +22,7 @@ def open_csv(key):
         print('File you are accessing is: ', file)
 
         # Connect to Github copies of Substorm data published
-        url= f"https://raw.githubusercontent.com/hannamag101/Adamski_Substorm_2024/main/Substorm_Data/Sophie_Substorm_Lists/{file}"
+        url= f"https://raw.githubusercontent.com/hannamag101/Adamski_Substorm_Updates_2024/main/Substorm_Data/Sophie_Substorm_Lists/{file}"
         data = np.loadtxt(url, skiprows = 13, delimiter = ' ', dtype = str)
 
         # Manipulate the time-date format in '.txt' files to easily interpretable columns
@@ -51,7 +51,7 @@ def open_csv(key):
         print('File you are accessing is: ', file)
 
         # Connect to Github copies of Substorm data published
-        url= f"https://raw.githubusercontent.com/hannamag101/Adamski_Substorm_2024/main/Substorm_Data/{file}"
+        url= f"https://raw.githubusercontent.com/hannamag101/Adamski_Substorm_Updates_2024/main/Substorm_Data/{file}"
         data = pd.read_csv(url)
 
         # Convert to proper datetime format
