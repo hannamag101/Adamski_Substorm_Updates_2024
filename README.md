@@ -1,7 +1,7 @@
 # Adamski_Substorm_Updates_2024
 This repository contains python code which aids the user in the comparison of Earth substorm initialization events recorded across different datasets. We use onset data, further detailed in the following papers, to generate our visualizations in the form of Venn Diagrams. 
 
-### References
+### References:
 ---
 Ohtani, S., & Gjerloev, J. W. (2020). Is the substorm current wedge an ensemble of wedgelets?: Revisit to midlatitude positive bays. Journal of Geophysical Research: Space Physics, 125, e2020JA027902. https://doi.org/ 10.1029/2020JA027902
 
@@ -15,5 +15,10 @@ Frey HU, Mende SB (2006) Substorm onsets as observed by IMAGE-FUV, In: Syrjäsuo
 
 Forsyth, C., I. J. Rae, J. C. Coxon, M. P. Freeman, C. M. Jackman, J. Gjerloev, and A. N. Fazakerley (2015), A new technique for determining Substorm Onsets and Phases from Indices of the Electrojet (SOPHIE), J. Geophys. Res. Space Physics, 120, 10,592–10,606, doi:10.1002/ 2015JA021343.
  
-
-$\bullet$ Testing 
+### Packages: 
+---
+$\bullet$ Numpy
+$\bullet$ matplotlib, matplotlib_venn, matplotlib.colors, matplotlib.transforms
+$\bullet$ pandas
+$\bullet$ datetime
+$\bullet$ os
